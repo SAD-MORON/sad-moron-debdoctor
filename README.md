@@ -21,6 +21,17 @@ texto jurídicamente consolidado ni asesoramiento sobre casos individuales. La
 consulta histórica todavía no está implementada y la cobertura del
 nomenclador de enfermedades continúa siendo parcial.
 
+## Web de consulta
+
+[Acceder a DebDoctor](https://sad-moron.github.io/sad-moron-debdoctor/).
+
+La primera publicación se realizó el 26/10/2026 desde el commit
+`3f00390e823c4c1b5e7884ce624ec2879dd9caba`. El catálogo permanece en revisión.
+El mapa candidato contiene 37 nodos: 35 con identificación verificada,
+24 conexiones verificadas, 19 pendientes y ninguna versión completamente
+reconstruida. Los estados se refieren a la evidencia registrada, no a una
+certificación de vigencia.
+
 ## Créditos
 
 **Desarrollo colaborativo:** Débora Vigne y Martín N. Sánchez Morales<br>
@@ -107,3 +118,9 @@ El código y la documentación originales de DebDoctor se ofrecen bajo Apache
 License 2.0; véase `LICENSE`. Esa licencia no relicencia textos normativos,
 documentos oficiales, marcas, enlaces ni otros materiales de terceros. El
 detalle de límites se encuentra en `docs/LICENCIAS_Y_FUENTES.md`.
+
+## Contribuciones
+
+Las mejoras se proponen mediante solicitudes de cambios (PR). Antes de
+crear un commit local, verificar la identidad de Git y consultar
+[las indicaciones de contribución](docs/CONTRIBUCIONES.md).
