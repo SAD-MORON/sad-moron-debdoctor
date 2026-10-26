@@ -4,7 +4,25 @@
 
 Fecha: 26/10/2026.
 
-## Controles realizados
+## Estado publicado y revisión posterior
+
+La primera publicación se realizó el 26/10/2026 desde
+`3f00390e823c4c1b5e7884ce624ec2879dd9caba`.
+El workflow manual de Pages terminó correctamente:
+https://github.com/SAD-MORON/sad-moron-debdoctor/actions/runs/40374330750.
+
+El candidato publicado contiene 37 nodos, 35 identificaciones verificadas,
+24 conexiones verificadas, 19 pendientes y 0 versiones completamente
+reconstruidas. Los valores anteriores que aparecen debajo corresponden
+a una etapa previa del relevamiento.
+
+La revisión posterior comprobó los 25 archivos del manifiesto
+`600be240c7b7413c3e2b9562d58d75f0bb1307093ce20a041edcb1c11b52bb04`,
+las pruebas Node y el funcionamiento público del buscador, las fichas,
+el árbol, el zoom y el enfoque de relaciones.
+No equivale a una auditoría jurídica independiente.
+
+## Controles registrados antes de la publicación
 
 - 43 fichas extraídas de la hoja Normas del Excel de origen.
 - Identificadores únicos y copias de datos canónica/distribución iguales.
@@ -26,4 +44,5 @@ Fecha: 26/10/2026.
 
 No se realizó una auditoría jurídica independiente ni una certificación exhaustiva de accesibilidad. La prueba móvil fue una comprobación funcional en un viewport emulado, no una matriz multidispositivo. No se comprobó nuevamente la disponibilidad de cada enlace externo.
 
-La carga y las pruebas técnicas no acreditan vigencia normativa, integridad de las fuentes ni aplicabilidad a un caso. No hay despliegue, publicación, staging, commit ni remoto configurado.
+La carga y las pruebas técnicas no acreditan vigencia normativa, integridad de las fuentes ni aplicabilidad a un caso. El registro anterior se produjo antes del primer commit y despliegue.
+Ese estado histórico no describe el estado publicado indicado al inicio.
