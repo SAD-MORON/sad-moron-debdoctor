@@ -2,7 +2,15 @@
 
 **Secretaría de Asuntos Docentes de Morón — Provincia de Buenos Aires**
 
-Prototipo documental de consulta en versión de revisión. No publicado y sin integración con 5650, Apps Script o sistemas operativos. El proyecto tiene un repositorio Git local sin commits, staging ni remoto configurado.
+Prototipo documental de consulta publicado como versión de revisión en
+https://sad-moron.github.io/sad-moron-debdoctor/.
+
+Repositorio: https://github.com/SAD-MORON/sad-moron-debdoctor.
+Primera publicación: 26/10/2026, commit
+`3f00390e823c4c1b5e7884ce624ec2879dd9caba`.
+Sin integración con 5650, Apps Script ni sistemas operativos.
+El resto de este documento conserva indicaciones de preparación local;
+el estado de un equipo de trabajo debe verificarse en ese equipo.
 
 ## Uso
 
@@ -30,7 +38,7 @@ Hay 43 fichas, incluyendo normas, instrumentos y categorías por completar. Los 
 
 Las fichas de jurisprudencia y de actos individuales representan categorías; no son fallos ni actos individuales localizados. Los documentos del Drive aportado se inventariaron por nombre. La copia de Resolución 2672/15 estaba pendiente de recuperación/cotejo: el prototipo no habilita su enlace fallido.
 
-La identidad institucional fue indicada por el responsable humano y no acredita consolidación jurídica del catálogo. Incluye marca visible de revisión y robots `noindex,nofollow`; esto último evita indexación cooperativa, no es un control de acceso. No hay despliegue remoto.
+La identidad institucional fue indicada por el responsable humano y no acredita consolidación jurídica del catálogo. Incluye marca visible de revisión y robots `noindex,nofollow`; esto último evita indexación cooperativa, no es un control de acceso. La versión preliminar está desplegada; cada actualización requiere su validación y publicación manual.
 
 No hay carga de documentos, cuenta, administración, formularios de denuncias, analítica, datos personales ni consultas jurídicas automáticas. La consulta por fecha no está implementada: requiere consolidación y validación de intervalos de vigencia. Los filtros por ámbito son una clasificación de navegación preliminar; no determinan aplicabilidad jurídica.
 
