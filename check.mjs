@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {selectRecords,canOpenSource} from './web/catalog.mjs';
-import {validateGraph,graphCounts,selectGraph,RELATION_TYPES} from './web/graph.mjs';
+import {validateGraph,graphCounts,selectGraph,RELATION_TYPES,connectionText} from './web/graph.mjs';
 const d=JSON.parse(fs.readFileSync(new URL('./web/data.json',import.meta.url)));
 assert.equal(d.records.length,43);assert.equal(new Set(d.records.map(r=>r.id)).size,43);
 assert(selectRecords(d.records,{query:'ESTATUTO'}).some(r=>r.id==='E01'));
@@ -22,6 +22,13 @@ assert(!JSON.stringify(d).includes('drive.google.com/drive/folders'));
 const graph=validateGraph(JSON.parse(fs.readFileSync(new URL('./web/estatuto-grafo-v1.json',import.meta.url))));
 assert.deepEqual(graph,JSON.parse(fs.readFileSync(new URL('./data/candidatos/estatuto-grafo-v1.json',import.meta.url))));
 const counts=graphCounts(graph);
+// Una relación entrante debe conservar su origen al abrir la ficha del destino.
+const nodeById=new Map(graph.nodes.map(node=>[node.id,node]));
+const incoming=graph.edges.find(edge=>edge.id==='R016');
+assert.equal(incoming.from,'N022');assert.equal(incoming.to,'N021');
+assert.equal(connectionText(incoming,nodeById),'Decreto 1787/2003 sustituye Decreto 2988/2002: art. 4 del Anexo');
+const outgoing=graph.edges.find(edge=>edge.id==='R014');
+assert.equal(connectionText(outgoing,nodeById),'Decreto 2988/2002 deroga Decreto 1013/2002: Decreto 1013/02');
 assert.deepEqual(counts,{nodes:37,identified:35,textVerified:7,verified:24,pending:19,reconstructed:0});
 assert(graph.edges.every(edge=>RELATION_TYPES.has(edge.type)));
 assert(graph.edges.filter(edge=>edge.status==='verified').every(edge=>graph.nodes.find(node=>node.id===edge.from).relation_review==='VERIFICADO'));
