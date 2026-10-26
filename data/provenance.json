@@ -1,0 +1,12 @@
+{
+  "source_filename": "DebDoctor_mapa_normativo_v1.xlsx",
+  "source_sha256": "165b3a6abae552f3e174a5e9652eae8798b4a1bfcbce4c1569b30380ec12451a",
+  "source_sheet": "Normas",
+  "source_rows": 43,
+  "projection_date": "2026-10-26",
+  "notes": [
+    "Fuente leída desde XLSX generado en esta conversación.",
+    "Enlaces R01, O02 y J01 omitidos en la vista web por disponibilidad o falta de destino específico.",
+    "Ámbitos y familias son clasificaciones preliminares de navegación; no determinan aplicabilidad."
+  ]
+}

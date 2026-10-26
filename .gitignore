@@ -1,0 +1,22 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+
+# Matrices y fuentes de trabajo locales: no forman parte del repositorio público.
+documentos/*
+fuentes/*
+
+# Instrucción operativa de integración: se conserva localmente, no se publica.
+docs/ORDEN_PARA_CODEX.md
+
+# Artefactos locales de vista previa y herramientas.
+.openai/
+.tmp/
+tmp/
+dist/
+coverage/

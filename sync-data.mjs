@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+const source=new URL('./data/catalogo-inicial.json',import.meta.url);
+const target=new URL('./web/data.json',import.meta.url);
+const text=await fs.readFile(source,'utf8');const data=JSON.parse(text);
+if(!Array.isArray(data.records)||new Set(data.records.map(r=>r.id)).size!==data.records.length)throw Error('Catálogo inválido o IDs duplicados');
+await fs.writeFile(target,text);
+const graphSource=new URL('./data/candidatos/estatuto-grafo-v1.json',import.meta.url);
+const graphTarget=new URL('./web/estatuto-grafo-v1.json',import.meta.url);
+const graphText=await fs.readFile(graphSource,'utf8');const graph=JSON.parse(graphText);
+if(graph.candidate!==true||!Array.isArray(graph.nodes)||!Array.isArray(graph.edges))throw Error('Grafo candidato inválido');
+await fs.writeFile(graphTarget,graphText);
+console.log('Proyecciones web actualizadas desde el catálogo canónico y el grafo candidato separado.');

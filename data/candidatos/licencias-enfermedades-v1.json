@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "candidate": true,
+  "review_date": "2026-10-26",
+  "scope": "Personal docente comprendido en la Ley 10.579 de la Provincia de Buenos Aires",
+  "canonical_catalog_modified": false,
+  "contains_personal_or_clinical_data": false,
+  "terminology": {
+    "nomenclature": "Rótulo de navegación para un listado documental; su denominación jurídica, acto aprobatorio y versión vigente permanecen pendientes.",
+    "diagnosis": "Dato clínico individual excluido del relevamiento.",
+    "license_ground": "Encuadre jurídico en el artículo 114 y su reglamentación; no se infiere de una etiqueta diagnóstica.",
+    "authorized_duration": "Resultado sujeto al régimen, situación de revista, antigüedad, autoridad médica y demás condiciones; no se deriva automáticamente del listado."
+  },
+  "records": [
+    {
+      "id": "LIC-ENF-001",
+      "label": "Decreto 688/1993 — reglamentación de los artículos 114–119",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/1993/688/90299",
+      "official_text": "https://normas.gba.gob.ar/documentos/xqqzD8sp.html",
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "effect_review": "VERIFICADO",
+      "dates": {
+        "promulgated": "1993-03-01",
+        "published": "1993-03-08",
+        "effective_from": "1993-03-01",
+        "official_gazette": "22382"
+      },
+      "articles": ["114", "115", "116", "117", "118", "119", "114.a.2", "114.a.2.7"],
+      "evidence": "El artículo 1 aprueba la reglamentación y la incorpora al Decreto 2485/92 como Anexo I.",
+      "pending": "El texto actualizado oficial cotejado no contiene 114.a.2.8 ni un listado de patologías."
+    },
+    {
+      "id": "LIC-ENF-002",
+      "label": "Acta paritaria 28/02/2008 y Circular 2/2008",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2025/248/496141",
+      "identification": "PARCIAL",
+      "text_review": "PENDIENTE",
+      "effect_review": "PENDIENTE",
+      "articles": ["114.a.2"],
+      "evidence": "Antecedente mencionado en documentación posterior; no se recuperó el original oficial íntegro.",
+      "pending": "Localizar, autenticar y cotejar el acta y la circular antes de afirmar contenido o vigencia."
+    },
+    {
+      "id": "LIC-ENF-003",
+      "label": "Listado de patologías crónicas / nomenclador de uso administrativo",
+      "source": "https://normas.gba.gob.ar/documentos/xqqzD8sp.html",
+      "identification": "PARCIAL",
+      "text_review": "PENDIENTE",
+      "effect_review": "PENDIENTE",
+      "articles": ["114.a.2", "114.a.2.8 (referencia administrativa no reconstruida)"],
+      "evidence": "La Circular Conjunta 1 de 2025 usa 114.a.2.8; el texto actualizado oficial del Decreto 688/93 termina en 114.a.2.7.",
+      "pending": "Identificar cada acto aprobatorio, versión, anexo, modificación y sustitución en fuente oficial."
+    },
+    {
+      "id": "LIC-ENF-004",
+      "label": "Acuerdo Paritario sobre Licencia Extraordinaria por Enfermedad-Patologías Crónicas",
+      "document_id": "IF-2024-36644967-GDEBA-DPGRHDGCYE",
+      "source": "https://normas.gba.gob.ar/documentos/0vw17Ofe.html",
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "effect_review": "PARCIAL",
+      "articles": ["114.a.2"],
+      "evidence": "El artículo 2 del Decreto 248/25 formaliza el acuerdo para el personal docente Ley 10.579.",
+      "pending": "Obtener el IF íntegro para verificar patologías, anexos, efecto sobre versiones anteriores y fecha específica de aplicación."
+    },
+    {
+      "id": "LIC-ENF-005",
+      "label": "Decreto 248/2025, artículo 2",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2025/248/496141",
+      "official_text": "https://normas.gba.gob.ar/documentos/0vw17Ofe.html",
+      "official_gazette": "https://boletinoficial.gba.gob.ar/secciones/13329/descargar",
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "effect_review": "VERIFICADO",
+      "dates": {
+        "promulgated": "2025-02-23",
+        "published": "2025-02-26",
+        "official_gazette": "29947"
+      },
+      "articles": ["Decreto 248/25 art. 2", "Ley 13.552 art. 15", "Ley 10.579 art. 114.a.2"],
+      "evidence": "Formaliza el acuerdo IF-2024-36644967 como parte del Acta Paritaria del 16/10/2024.",
+      "pending": "El texto dispositivo no demuestra por sí solo una sustitución integral de listados anteriores."
+    },
+    {
+      "id": "LIC-ENF-006",
+      "label": "Circular Conjunta 1 — Inicio 2025",
+      "source": "https://srv4.abc.gob.ar/sites/default/files/documents/circular_conjunta_1_inicio2025-final.pdf",
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "effect_review": "PARCIAL",
+      "articles": ["114.a.2.8"],
+      "evidence": "La circular usa la referencia en un supuesto operativo de continuidad.",
+      "pending": "No usarla como acto aprobatorio del nomenclador ni como fuente exhaustiva de patologías."
+    }
+  ],
+  "sources": [
+    "https://normas.gba.gob.ar/ar-b/decreto/1993/688/90299",
+    "https://normas.gba.gob.ar/documentos/xqqzD8sp.html",
+    "https://normas.gba.gob.ar/ar-b/decreto/2025/248/496141",
+    "https://normas.gba.gob.ar/documentos/0vw17Ofe.html",
+    "https://normas.gba.gob.ar/anexos/descargar/30PeJyxP.pdf",
+    "https://boletinoficial.gba.gob.ar/secciones/13329/descargar",
+    "https://srv4.abc.gob.ar/sites/default/files/documents/circular_conjunta_1_inicio2025-final.pdf"
+  ]
+}

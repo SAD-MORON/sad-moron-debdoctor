@@ -1,0 +1,1074 @@
+{
+  "schema_version": "1.1.0",
+  "candidate": true,
+  "review_date": "2026-10-26",
+  "center": "N001",
+  "zero_complete_versions": true,
+  "provenance": {
+    "source_report": "audit/estatuto_cobertura_candidata_v1/INFORME.md",
+    "source_workbook": "audit/estatuto_cobertura_candidata_v1/DEBDOCTOR_matriz_cobertura_estatuto_v1.xlsx",
+    "source_sheet": "Matriz",
+    "source_range": "A4:R38",
+    "source_sha256": "780126cb726d2d77e3b6e50a086797a4669c13b754ad4dc8d101bca8285ddbe5",
+    "license_disease_extension": "audit/licencias_enfermedades_candidata_v1/INFORME.md",
+    "license_disease_data": "data/candidatos/licencias-enfermedades-v1.json",
+    "catalog_dependency": "data/catalogo-inicial.json",
+    "note": "Candidato separado. Las conexiones no amplían ni corrigen automáticamente el catálogo canónico."
+  },
+  "groups": {
+    "core": "Núcleo",
+    "ley_modifiers": "Modificatorias de la ley",
+    "regulations": "Reglamentación específica",
+    "licenses": "Licencias",
+    "parity": "Paritarias y acuerdos",
+    "disease_nomenclature": "Licencias → reglamentación → nomenclador y anexos"
+  },
+  "nodes": [
+    {
+      "id": "N001",
+      "label": "Ley 10.579",
+      "catalog_id": "E01",
+      "kind": "Ley provincial especial",
+      "group": "core",
+      "topics": [
+        "carrera docente",
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/1987/10579/6205",
+      "evidence": "Ficha, PDF original y texto actualizado oficial; el actualizado declara 13 leyes modificatorias.",
+      "pending": "Falta linaje exhaustivo artículo→norma→vigencia y cotejo de cada original."
+    },
+    {
+      "id": "N002",
+      "label": "Decreto 2485/1992",
+      "catalog_id": "D01",
+      "kind": "Decreto",
+      "group": "core",
+      "topics": [
+        "reglamentación",
+        "carrera docente"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/1992/2485/92302",
+      "evidence": "Ficha y texto actualizado oficial; declara 9 decretos modificatorios.",
+      "pending": "Falta reconstrucción completa de cada inciso y anexo por versión."
+    },
+    {
+      "id": "N003",
+      "label": "Decreto 688/1993",
+      "catalog_id": "D02",
+      "kind": "Decreto",
+      "group": "core",
+      "topics": [
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/1993/688/90299",
+      "evidence": "Ficha, PDF original y texto actualizado oficial.",
+      "pending": "Falta consolidar efectos de 4055/93, 1878/10 y acuerdos paritarios."
+    },
+    {
+      "id": "N004",
+      "label": "Ley 10.614",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "carrera docente"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/1987/10614/6206",
+      "evidence": "El texto actualizado identifica numerosas cláusulas atribuidas a la Ley 10.614.",
+      "pending": "Cotejo íntegro artículo por artículo y vigencia efectiva."
+    },
+    {
+      "id": "N005",
+      "label": "Ley 10.693",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "capacitación"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/1988/10693/6130",
+      "evidence": "Anotación expresa en texto actualizado del Estatuto.",
+      "pending": "Cotejar texto original completo y promulgación."
+    },
+    {
+      "id": "N006",
+      "label": "Ley 10.743",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "carrera docente"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/1989/10743/6073",
+      "evidence": "Anotaciones expresas en texto actualizado.",
+      "pending": "Cotejar texto original completo."
+    },
+    {
+      "id": "N007",
+      "label": "Ley 12.537",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "ingreso"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/documentos/xkdoDUAB.html",
+      "evidence": "El texto actualizado atribuye expresamente el artículo 60 a la Ley 12.537.",
+      "pending": "Localizar ficha, original, fechas y Boletín Oficial."
+    },
+    {
+      "id": "N008",
+      "label": "Ley 12.770",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "ingreso"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2001/12770/4085",
+      "evidence": "Ficha oficial y anotación del texto actualizado.",
+      "pending": "Cotejar original íntegro."
+    },
+    {
+      "id": "N009",
+      "label": "Ley 12.799",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "retribuciones"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/documentos/xkdoDUAB.html",
+      "evidence": "El texto actualizado atribuye expresamente el artículo 41 a la Ley 12.799.",
+      "pending": "Localizar ficha, original, fechas y Boletín Oficial."
+    },
+    {
+      "id": "N010",
+      "label": "Ley 12.867",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "licenses",
+      "topics": [
+        "licencias",
+        "previsión"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2002/12867/3997",
+      "evidence": "Ficha y notas del texto actualizado; la suspensión está ligada a una emergencia.",
+      "pending": "Delimitar inicio, prórrogas y cese de la suspensión."
+    },
+    {
+      "id": "N011",
+      "label": "Ley 13.124",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "concursos"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2003/13124/3743",
+      "evidence": "Texto actualizado y ficha; el decreto 2349/03 observa parte del texto.",
+      "pending": "Cotejar alcance exacto de la observación parcial."
+    },
+    {
+      "id": "N012",
+      "label": "Ley 13.141",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "reincorporación"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2003/13141/3711",
+      "evidence": "Atribución expresa en texto actualizado.",
+      "pending": "Cotejar original íntegro."
+    },
+    {
+      "id": "N013",
+      "label": "Ley 13.170",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "títulos",
+        "continuidad"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2004/13170/3695",
+      "evidence": "Atribuciones expresas en texto actualizado.",
+      "pending": "Cotejar original y vigencia de la cláusula transitoria."
+    },
+    {
+      "id": "N014",
+      "label": "Ley 13.414",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "licenses",
+      "topics": [
+        "licencias",
+        "representación"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2006/13414/3437",
+      "evidence": "Atribución expresa en texto actualizado.",
+      "pending": "Cotejar interacción con Ley 13.967 y reglamentación posterior."
+    },
+    {
+      "id": "N015",
+      "label": "Ley 13.936",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "ley_modifiers",
+      "topics": [
+        "ingreso",
+        "designaciones"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2009/13936/2926",
+      "evidence": "Ficha oficial identifica ambos artículos afectados.",
+      "pending": "Cotejar original íntegro y reglamentación correlativa."
+    },
+    {
+      "id": "N016",
+      "label": "Ley 14.814",
+      "catalog_id": null,
+      "kind": "Ley provincial",
+      "group": "licenses",
+      "topics": [
+        "licencias",
+        "salud"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2016/14814/11147",
+      "evidence": "El artículo 5 del texto oficial sustituye expresamente el artículo 114.b.",
+      "pending": "Integrar con el detalle reglamentario vigente."
+    },
+    {
+      "id": "N017",
+      "label": "Decreto 441/1995",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "reglamentación"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/1995/441/81564",
+      "evidence": "Ficha oficial: sustituye el Anexo I; el texto actualizado contiene numerosas marcas.",
+      "pending": "Cotejo integral del anexo y mapa de incisos."
+    },
+    {
+      "id": "N018",
+      "label": "Decreto 4055/1993",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "licenses",
+      "topics": [
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/1993/4055/86774",
+      "evidence": "Ficha oficial lo vincula al régimen de los artículos 114–119.",
+      "pending": "Cotejar texto y efectos específicos por inciso."
+    },
+    {
+      "id": "N019",
+      "label": "Decreto 1013/2002",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "licenses",
+      "topics": [
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2002/1013/52425",
+      "evidence": "Ficha oficial declara su derogación por Decreto 2988/02.",
+      "pending": "Conservar como versión histórica no vigente; falta reconstrucción textual."
+    },
+    {
+      "id": "N020",
+      "label": "Decreto 1189/2002",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "concursos"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2002/1189/52438",
+      "evidence": "Ficha oficial identifica el artículo y el inciso incorporado.",
+      "pending": "Cotejar reemplazo posterior por Decreto 252/06."
+    },
+    {
+      "id": "N021",
+      "label": "Decreto 2988/2002",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "licenses",
+      "topics": [
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2002/2988/51619",
+      "evidence": "Ficha oficial aprueba el régimen y deroga el Decreto 1013/02.",
+      "pending": "Cotejar anexo completo y alcance frente al Decreto 688/93."
+    },
+    {
+      "id": "N022",
+      "label": "Decreto 1787/2003",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "licenses",
+      "topics": [
+        "licencias",
+        "maternidad"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2003/1787/50207",
+      "evidence": "Ficha oficial identifica la sustitución puntual.",
+      "pending": "Cotejar el nuevo texto y su vigencia actual."
+    },
+    {
+      "id": "N023",
+      "label": "Decreto 256/2005",
+      "catalog_id": "D05",
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "secundaria",
+        "reglamentación"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2005/256/47951",
+      "evidence": "Ficha oficial confirma modificación del Decreto 2485/92.",
+      "pending": "Cotejar artículos dispositivos y anexos."
+    },
+    {
+      "id": "N024",
+      "label": "Decreto 258/2005",
+      "catalog_id": "D06",
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "designaciones",
+        "suplencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2005/258/47947",
+      "evidence": "El Decreto 900/23 describe oficialmente los incisos incorporados.",
+      "pending": "Cotejar original íntegro y relación con el texto vigente."
+    },
+    {
+      "id": "N025",
+      "label": "Decreto 1301/2005",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "secundaria",
+        "nomencladores"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2005/1301/47339",
+      "evidence": "Ficha oficial confirma objetivos y normas afectadas.",
+      "pending": "Cotejar anexos e impacto artículo por artículo."
+    },
+    {
+      "id": "N026",
+      "label": "Decreto 252/2006",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "concursos"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2006/252/44104",
+      "evidence": "Texto oficial cotejado con los artículos dispositivos 1–3.",
+      "pending": "Integrar la secuencia 1189/02→252/06."
+    },
+    {
+      "id": "N027",
+      "label": "Decreto 1878/2010",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "licenses",
+      "topics": [
+        "licencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2010/1878/34196",
+      "evidence": "Ficha oficial identifica los incisos afectados.",
+      "pending": "Cotejar texto dispositivo y fechas de aplicación."
+    },
+    {
+      "id": "N028",
+      "label": "Decreto 690/2020",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "actos públicos",
+        "designaciones"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2020/690/215234",
+      "evidence": "Nota oficial en texto actualizado del Decreto 2485/92.",
+      "pending": "Cotejar dispositivos y vigencia de la modalidad."
+    },
+    {
+      "id": "N029",
+      "label": "Decreto 900/2023",
+      "catalog_id": null,
+      "kind": "Decreto",
+      "group": "regulations",
+      "topics": [
+        "designaciones",
+        "suplencias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2023/900/364499",
+      "evidence": "Texto oficial cotejado: amplía cobertura de ausencias y módulos/horas.",
+      "pending": "Integrar en la versión vigente de la reglamentación."
+    },
+    {
+      "id": "N030",
+      "label": "Ley 13.552",
+      "catalog_id": "P03",
+      "kind": "Ley provincial",
+      "group": "parity",
+      "topics": [
+        "paritarias"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/ley/2006/13552/3334",
+      "evidence": "Marco legal citado por actos de formalización de acuerdos docentes.",
+      "pending": "Cotejar texto íntegro y registro completo de acuerdos no salariales."
+    },
+    {
+      "id": "N031",
+      "label": "Acta paritaria 28/02/2008",
+      "catalog_id": null,
+      "kind": "Acuerdo paritario",
+      "group": "parity",
+      "topics": [
+        "licencias",
+        "paritarias"
+      ],
+      "identification": "PARCIAL",
+      "text_review": "PENDIENTE",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/ar-b/decreto/2025/248/496141",
+      "evidence": "Antecedente candidato registrado en el relevamiento; el original oficial no fue recuperado.",
+      "pending": "Recuperar y autenticar el acta y la Circular 2/2008 oficiales íntegras antes de afirmar contenido o vigencia."
+    },
+    {
+      "id": "N032",
+      "label": "Decreto 248/2025 + Acta 16/10/2024",
+      "catalog_id": null,
+      "kind": "Decreto y acuerdo paritario",
+      "group": "parity",
+      "topics": [
+        "licencias",
+        "paritarias",
+        "salud"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PARCIAL",
+      "relation_review": "VERIFICADO",
+      "version_reconstructed": "PARCIAL",
+      "source": "https://normas.gba.gob.ar/documentos/xDbRpdiK.pdf",
+      "evidence": "El artículo 2 formaliza el acuerdo IF-2024-36644967-GDEBA-DPGRHDGCYE; BO 29947.",
+      "pending": "Cotejar anexo completo, transición desde 2008 y alcance temporal."
+    },
+    {
+      "id": "N033",
+      "label": "Acuerdo/Comunicado 183/2023",
+      "catalog_id": "A01",
+      "kind": "Acuerdo paritario",
+      "group": "parity",
+      "topics": [
+        "violencia",
+        "resguardo"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "relation_review": "PENDIENTE",
+      "version_reconstructed": "PENDIENTE",
+      "source": "https://abc.gob.ar/sad/sites/default/files/2023-11/Comunicado%2B1832023.pdf",
+      "evidence": "Referencia oficial ya incluida en el catálogo local.",
+      "pending": "Determinar naturaleza, autoridad, anexos y relación efectiva con el Estatuto."
+    },
+    {
+      "id": "N034",
+      "label": "Adenda acuerdo paritario 2026",
+      "catalog_id": "A02",
+      "kind": "Acuerdo paritario",
+      "group": "parity",
+      "topics": [
+        "violencia",
+        "resguardo"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "relation_review": "PENDIENTE",
+      "version_reconstructed": "PENDIENTE",
+      "source": "https://servicios3.abc.gob.ar/dti/images/micrositios/2026-08/Anexo%20II%20Adenda%20Acuerdo%20Paritario.pdf",
+      "evidence": "Referencia oficial ya incluida en el catálogo local.",
+      "pending": "Cotejar acuerdo base, acto de formalización y vigencia."
+    },
+    {
+      "id": "N035",
+      "label": "Listado de patologías crónicas (nomenclador candidato)",
+      "catalog_id": null,
+      "kind": "Listado documental no reconstruido",
+      "group": "disease_nomenclature",
+      "topics": [
+        "licencias",
+        "enfermedades",
+        "nomenclador",
+        "salud"
+      ],
+      "identification": "PARCIAL",
+      "text_review": "PENDIENTE",
+      "relation_review": "PENDIENTE",
+      "version_reconstructed": "PENDIENTE",
+      "source": "https://normas.gba.gob.ar/documentos/xqqzD8sp.html",
+      "evidence": "La referencia 114.a.2.8 aparece en una circular operativa de 2025, pero el texto actualizado oficial del Decreto 688/93 termina en 114.a.2.7.",
+      "pending": "Identificar el acto aprobatorio, el texto íntegro, sus anexos, modificaciones, sustituciones y vigencia."
+    },
+    {
+      "id": "N036",
+      "label": "Acuerdo sobre licencia extraordinaria y patologías crónicas",
+      "catalog_id": null,
+      "kind": "Acuerdo paritario IF-2024-36644967",
+      "group": "disease_nomenclature",
+      "topics": [
+        "licencias",
+        "enfermedades",
+        "nomenclador",
+        "paritarias",
+        "salud"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "PENDIENTE",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PENDIENTE",
+      "source": "https://normas.gba.gob.ar/documentos/0vw17Ofe.html",
+      "evidence": "El artículo 2 del Decreto 248/25 identifica y formaliza expresamente el IF-2024-36644967-GDEBA-DPGRHDGCYE para el personal docente Ley 10.579.",
+      "pending": "Obtener el IF íntegro para verificar patologías, anexos, efecto sobre listados anteriores y fecha específica de aplicación."
+    },
+    {
+      "id": "N037",
+      "label": "Circular Conjunta 1 — Inicio 2025",
+      "catalog_id": null,
+      "kind": "Circular operativa DGCyE",
+      "group": "disease_nomenclature",
+      "topics": [
+        "licencias",
+        "enfermedades",
+        "nomenclador",
+        "salud"
+      ],
+      "identification": "VERIFICADO",
+      "text_review": "VERIFICADO",
+      "relation_review": "PARCIAL",
+      "version_reconstructed": "PENDIENTE",
+      "source": "https://srv4.abc.gob.ar/sites/default/files/documents/circular_conjunta_1_inicio2025-final.pdf",
+      "evidence": "La circular usa 114.a.2.8 en un supuesto operativo de continuidad.",
+      "pending": "No constituye por sí sola el acto aprobatorio del listado ni prueba su contenido exhaustivo."
+    }
+  ],
+  "edges": [
+    {
+      "id": "R001",
+      "from": "N005",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 171.g",
+      "status": "verified",
+      "evidence": "Anotación expresa en el texto actualizado."
+    },
+    {
+      "id": "R002",
+      "from": "N006",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "arts. 11 y 100",
+      "status": "verified",
+      "evidence": "Anotaciones expresas en el texto actualizado."
+    },
+    {
+      "id": "R003",
+      "from": "N007",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 60",
+      "status": "verified",
+      "evidence": "Atribución expresa en el texto actualizado; original todavía pendiente."
+    },
+    {
+      "id": "R004",
+      "from": "N008",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 57.e",
+      "status": "verified",
+      "evidence": "Ficha oficial y anotación del texto actualizado."
+    },
+    {
+      "id": "R005",
+      "from": "N009",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 41",
+      "status": "verified",
+      "evidence": "Atribución expresa en el texto actualizado; original todavía pendiente."
+    },
+    {
+      "id": "R006",
+      "from": "N012",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 101",
+      "status": "verified",
+      "evidence": "Atribución expresa en el texto actualizado."
+    },
+    {
+      "id": "R007",
+      "from": "N013",
+      "to": "N001",
+      "type": "modifica",
+      "articles": "arts. 109.c y 110.c",
+      "status": "verified",
+      "evidence": "Atribuciones expresas en el texto actualizado."
+    },
+    {
+      "id": "R008",
+      "from": "N013",
+      "to": "N001",
+      "type": "incorpora",
+      "articles": "art. 172 transitorio",
+      "status": "verified",
+      "evidence": "Atribución expresa en el texto actualizado."
+    },
+    {
+      "id": "R009",
+      "from": "N014",
+      "to": "N001",
+      "type": "incorpora",
+      "articles": "art. 115.f",
+      "status": "verified",
+      "evidence": "Atribución expresa en el texto actualizado."
+    },
+    {
+      "id": "R010",
+      "from": "N015",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "arts. 57.a y 108.a",
+      "status": "verified",
+      "evidence": "La ficha oficial identifica ambos artículos."
+    },
+    {
+      "id": "R011",
+      "from": "N016",
+      "to": "N001",
+      "type": "sustituye",
+      "articles": "art. 114.b",
+      "status": "verified",
+      "evidence": "El artículo 5 del texto oficial lo dispone expresamente."
+    },
+    {
+      "id": "R012",
+      "from": "N019",
+      "to": "N001",
+      "type": "reglamenta",
+      "articles": "art. 114",
+      "status": "verified",
+      "evidence": "La ficha oficial identifica el artículo reglamentado."
+    },
+    {
+      "id": "R013",
+      "from": "N021",
+      "to": "N001",
+      "type": "reglamenta",
+      "articles": "art. 114",
+      "status": "verified",
+      "evidence": "La ficha oficial aprueba el régimen de licencias."
+    },
+    {
+      "id": "R014",
+      "from": "N021",
+      "to": "N019",
+      "type": "deroga",
+      "articles": "Decreto 1013/02",
+      "status": "verified",
+      "evidence": "La ficha oficial declara la derogación."
+    },
+    {
+      "id": "R015",
+      "from": "N020",
+      "to": "N002",
+      "type": "incorpora",
+      "articles": "art. 76.A.4.2",
+      "status": "verified",
+      "evidence": "La ficha oficial identifica artículo e inciso."
+    },
+    {
+      "id": "R016",
+      "from": "N022",
+      "to": "N021",
+      "type": "sustituye",
+      "articles": "art. 4 del Anexo",
+      "status": "verified",
+      "evidence": "La ficha oficial identifica la sustitución."
+    },
+    {
+      "id": "R017",
+      "from": "N024",
+      "to": "N002",
+      "type": "incorpora",
+      "articles": "arts. 107.c y 108.I.c",
+      "status": "verified",
+      "evidence": "El Decreto 900/23 identifica los incisos incorporados."
+    },
+    {
+      "id": "R018",
+      "from": "N026",
+      "to": "N002",
+      "type": "modifica",
+      "articles": "art. 75.8",
+      "status": "verified",
+      "evidence": "Texto oficial cotejado, artículo dispositivo 1."
+    },
+    {
+      "id": "R019",
+      "from": "N026",
+      "to": "N002",
+      "type": "deroga",
+      "articles": "art. 76.A.4.2",
+      "status": "verified",
+      "evidence": "Texto oficial cotejado, artículo dispositivo 3."
+    },
+    {
+      "id": "R020",
+      "from": "N026",
+      "to": "N002",
+      "type": "incorpora",
+      "articles": "art. 76.A.6",
+      "status": "verified",
+      "evidence": "Texto oficial cotejado, artículo dispositivo 3."
+    },
+    {
+      "id": "R021",
+      "from": "N027",
+      "to": "N003",
+      "type": "modifica",
+      "articles": "art. 114.b, d y n",
+      "status": "verified",
+      "evidence": "La ficha oficial identifica los incisos afectados."
+    },
+    {
+      "id": "R022",
+      "from": "N029",
+      "to": "N002",
+      "type": "modifica",
+      "articles": "arts. 107.c, 107.c.1, 107.c.2 y 108.I.c",
+      "status": "verified",
+      "evidence": "Texto oficial cotejado, artículos dispositivos 1–4."
+    },
+    {
+      "id": "R023",
+      "from": "N032",
+      "to": "N001",
+      "type": "complementa",
+      "articles": "art. 114.a.2",
+      "status": "verified",
+      "evidence": "El artículo 2 del Decreto 248/25 formaliza el acuerdo."
+    },
+    {
+      "id": "R024",
+      "from": "N002",
+      "to": "N001",
+      "type": "reglamenta",
+      "articles": "Anexo I; alcance general",
+      "status": "pending",
+      "evidence": "La matriz identifica la relación, pero mantiene el efecto global como PARCIAL."
+    },
+    {
+      "id": "R025",
+      "from": "N003",
+      "to": "N001",
+      "type": "reglamenta",
+      "articles": "arts. 114–119",
+      "status": "pending",
+      "evidence": "La matriz identifica la relación, pero la cadena posterior no está consolidada."
+    },
+    {
+      "id": "R026",
+      "from": "N003",
+      "to": "N002",
+      "type": "incorpora",
+      "articles": "arts. 114–119",
+      "status": "pending",
+      "evidence": "El Decreto 688/93 declara incorporación al Decreto 2485/92; falta reconstrucción integral."
+    },
+    {
+      "id": "R027",
+      "from": "N004",
+      "to": "N001",
+      "type": "modifica",
+      "articles": "múltiples artículos",
+      "status": "pending",
+      "evidence": "Numerosas marcas en el texto actualizado; cotejo integral pendiente."
+    },
+    {
+      "id": "R028",
+      "from": "N010",
+      "to": "N001",
+      "type": "modifica",
+      "articles": "art. 10 y nota sobre art. 114",
+      "status": "pending",
+      "evidence": "Efecto temporal ligado a emergencia; vigencia no reconstruida."
+    },
+    {
+      "id": "R029",
+      "from": "N011",
+      "to": "N001",
+      "type": "modifica",
+      "articles": "arts. 74 y 80.a",
+      "status": "pending",
+      "evidence": "Existe observación parcial cuyo alcance debe cerrarse."
+    },
+    {
+      "id": "R030",
+      "from": "N017",
+      "to": "N002",
+      "type": "sustituye",
+      "articles": "Anexo I completo",
+      "status": "pending",
+      "evidence": "La ficha identifica el reemplazo; falta cotejo integral del anexo."
+    },
+    {
+      "id": "R031",
+      "from": "N018",
+      "to": "N003",
+      "type": "complementa",
+      "articles": "arts. 114–119",
+      "status": "pending",
+      "evidence": "La ficha lo vincula al régimen; faltan efectos por inciso."
+    },
+    {
+      "id": "R032",
+      "from": "N023",
+      "to": "N002",
+      "type": "modifica",
+      "articles": "art. 12 y nomencladores",
+      "status": "pending",
+      "evidence": "Alcance exacto todavía a cotejar."
+    },
+    {
+      "id": "R033",
+      "from": "N025",
+      "to": "N002",
+      "type": "modifica",
+      "articles": "nomencladores",
+      "status": "pending",
+      "evidence": "Ficha oficial; impacto por artículo pendiente."
+    },
+    {
+      "id": "R034",
+      "from": "N025",
+      "to": "N023",
+      "type": "modifica",
+      "articles": "Decreto 256/05",
+      "status": "pending",
+      "evidence": "La ficha identifica la norma afectada; anexos pendientes."
+    },
+    {
+      "id": "R035",
+      "from": "N028",
+      "to": "N002",
+      "type": "complementa",
+      "articles": "arts. 64 y 108",
+      "status": "pending",
+      "evidence": "Nota en el texto actualizado; dispositivos y vigencia pendientes."
+    },
+    {
+      "id": "R036",
+      "from": "N030",
+      "to": "N001",
+      "type": "complementa",
+      "articles": "marco paritario",
+      "status": "pending",
+      "evidence": "Marco legal identificado; no hay artículo estatutario único."
+    },
+    {
+      "id": "R037",
+      "from": "N031",
+      "to": "N001",
+      "type": "complementa",
+      "articles": "art. 114.a.2",
+      "status": "pending",
+      "evidence": "Antecedente citado por el acuerdo 2024; acta original pendiente."
+    },
+    {
+      "id": "R038",
+      "from": "N033",
+      "to": "N001",
+      "type": "complementa",
+      "articles": "sin efecto estatutario verificado",
+      "status": "pending",
+      "evidence": "Relación a determinar; se muestra sólo como candidata."
+    },
+    {
+      "id": "R039",
+      "from": "N034",
+      "to": "N001",
+      "type": "complementa",
+      "articles": "sin efecto estatutario verificado",
+      "status": "pending",
+      "evidence": "Relación a determinar; se muestra sólo como candidata."
+    },
+    {
+      "id": "R040",
+      "from": "N035",
+      "to": "N003",
+      "type": "complementa",
+      "articles": "referencia administrativa 114.a.2.8 frente a 114.a.2",
+      "status": "pending",
+      "evidence": "No se recuperó un acto oficial íntegro que incorpore 114.a.2.8 al texto actualizado del Decreto 688/93."
+    },
+    {
+      "id": "R041",
+      "from": "N032",
+      "to": "N036",
+      "type": "incorpora",
+      "articles": "Decreto 248/25, art. 2",
+      "status": "verified",
+      "evidence": "El artículo 2 identifica y formaliza expresamente el acuerdo IF-2024-36644967 como parte del Acta Paritaria del 16/10/2024."
+    },
+    {
+      "id": "R042",
+      "from": "N036",
+      "to": "N035",
+      "type": "complementa",
+      "articles": "contenido y alcance del listado pendientes",
+      "status": "pending",
+      "evidence": "La formalización del acuerdo está verificada, pero el IF íntegro no fue recuperado y no permite probar modificación o sustitución del listado."
+    },
+    {
+      "id": "R043",
+      "from": "N037",
+      "to": "N035",
+      "type": "complementa",
+      "articles": "uso administrativo de 114.a.2.8",
+      "status": "pending",
+      "evidence": "La circular prueba uso operativo de la referencia, no aprobación ni contenido exhaustivo del nomenclador."
+    }
+  ]
+}
