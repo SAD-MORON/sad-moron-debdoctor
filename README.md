@@ -15,8 +15,9 @@ Su propósito es facilitar el acceso a las fuentes normativas y la comprensión
 de sus relaciones mediante un buscador, fichas documentales y un mapa
 interactivo con la Ley 10.579 como eje.
 
-Esta es una **versión de revisión**. El catálogo inicial contiene 43
-referencias y pendientes de cotejo; no constituye un digesto exhaustivo, un
+Esta es una **versión de revisión**. El catálogo contiene 69 referencias,
+incluido el módulo candidato sobre ascensos y funciones jerárquicas del
+artículo 75, y pendientes de cotejo; no constituye un digesto exhaustivo, un
 texto jurídicamente consolidado ni asesoramiento sobre casos individuales. La
 consulta histórica todavía no está implementada y la cobertura del
 nomenclador de enfermedades continúa siendo parcial.
@@ -60,6 +61,8 @@ Luego abrir `http://127.0.0.1:8080/`.
 - Árbol de navegación con ramas expandibles, zoom y desplazamiento.
 - Relaciones jurídicas visibles al seleccionar una norma.
 - Lista accesible equivalente al mapa gráfico.
+- Módulo específico del artículo 75 con catálogo integrado, árbol navegable y
+  recorrido autoformativo sin acreditación ni puntaje.
 
 Las agrupaciones del árbol facilitan la navegación; no establecen por sí
 mismas una jerarquía o relación jurídica. Las síntesis documentales no
@@ -80,7 +83,10 @@ sustituyen las fuentes oficiales ni el análisis de cada situación concreta.
 
 `data/provenance.json` registra el nombre y la huella SHA-256 del Excel de
 origen. `data/catalogo-inicial.json` es la referencia estructurada y
-`web/data.json` es su copia de distribución. ABC / DGCyE, Normas GBA,
+`web/data.json` es su copia de distribución. `data/articulo-75.json` conserva
+el inventario SHA-256 de 25 documentos, sus relaciones candidatas y el
+recorrido formativo; `web/ascensos/data.json` es su proyección. Los PDF y el
+ZIP originales se conservan localmente en `fuentes/` y no se distribuyen. ABC / DGCyE, Normas GBA,
 el Boletín Oficial provincial, Argentina.gob.ar y cualquier otra fuente
 oficial requieren identificación, cotejo y control de versiones antes de
 respaldar una afirmación de vigencia o consolidación.

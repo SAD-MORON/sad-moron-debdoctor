@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "candidate": true,
+  "review_date": "2026-10-26",
+  "title": "Ascensos y funciones jerárquicas — Artículo 75",
+  "catalog_dependency": "data/catalogo-inicial.json",
+  "source_package": {
+    "filename": "fwdnormativaart75.zip",
+    "sha256": "dcfd06ff22bc52661177ec238cfd6c3658a057460067b7780937ac67861efc5b",
+    "files": 25,
+    "provenance": "Paquete aportado por el responsable humano; copias locales conservadas fuera de la distribución web.",
+    "official_origin_claim": "La identificación interna y los enlaces impresos apuntan a DGCyE, ABC, Normas GBA o Boletín Oficial; cada enlace directo faltante permanece como pendiente."
+  },
+  "groups": [
+    {"id":"base","label":"Base normativa","description":"Estatuto y reglamentación del artículo 75."},
+    {"id":"titulares","label":"Ascensos titulares","description":"Concursos, traslados y destino definitivo; no equivalen a funciones transitorias."},
+    {"id":"transitorias","label":"Funciones jerárquicas transitorias","description":"Asignación, relevo, continuidad, cese y coberturas específicas."},
+    {"id":"seleccion","label":"Pruebas y nóminas","description":"Convocatorias, puntajes, listados y antecedentes paritarios."},
+    {"id":"garantias","label":"Licencias y garantías","description":"Supuestos de licencia, salud y protección vinculados con los procedimientos."}
+  ],
+  "placements": [
+    {"catalog_id":"E01","group":"base"},
+    {"catalog_id":"D01","group":"base"},
+    {"catalog_id":"A75-R1184-2011","group":"titulares"},
+    {"catalog_id":"A75-R3809-2023","group":"titulares"},
+    {"catalog_id":"A75-R2418-1995","group":"transitorias"},
+    {"catalog_id":"A75-R2421-1995","group":"transitorias"},
+    {"catalog_id":"A75-R2991-1996","group":"transitorias"},
+    {"catalog_id":"A75-R1573-1997","group":"transitorias"},
+    {"catalog_id":"A75-R4088-2004","group":"transitorias"},
+    {"catalog_id":"A75-R1183-2011","group":"transitorias"},
+    {"catalog_id":"A75-R1536-2011","group":"transitorias"},
+    {"catalog_id":"A75-R2766-2018","group":"transitorias"},
+    {"catalog_id":"A75-R403-2023","group":"transitorias"},
+    {"catalog_id":"A75-R1284-2024","group":"transitorias"},
+    {"catalog_id":"A75-R2423-2024","group":"transitorias"},
+    {"catalog_id":"A75-D5-2025","group":"transitorias"},
+    {"catalog_id":"A75-R2839-2026","group":"transitorias"},
+    {"catalog_id":"A75-R824-2005","group":"seleccion"},
+    {"catalog_id":"A75-R2139-2006","group":"seleccion"},
+    {"catalog_id":"A75-AP-2009-06","group":"seleccion"},
+    {"catalog_id":"A75-AP-2009-10","group":"seleccion"},
+    {"catalog_id":"A75-R2767-2022","group":"seleccion"},
+    {"catalog_id":"A75-COM-2023-02","group":"seleccion"},
+    {"catalog_id":"A75-R12465-1999","group":"garantias"},
+    {"catalog_id":"A75-R568-2012","group":"garantias"},
+    {"catalog_id":"A75-R569-2012","group":"garantias"},
+    {"catalog_id":"A75-R1622-2015","group":"garantias"},
+    {"catalog_id":"A75-R4933-2024","group":"garantias"}
+  ],
+  "relations": [
+    {"id":"A75-REL-001","from":"D01","to":"E01","type":"reglamenta","articles":"art. 75","status":"verified","evidence":"Texto del Decreto 2485/1992 y catálogo canónico."},
+    {"id":"A75-REL-002","from":"A75-R824-2005","to":"D01","type":"complementa","articles":"art. 75; anexos I y II","status":"verified","evidence":"Arts. 1 y 2 y anexos de la copia cotejada."},
+    {"id":"A75-REL-003","from":"A75-R2991-1996","to":"A75-R2418-1995","type":"interpreta","articles":"arts. 1 a 3","status":"verified","evidence":"Art. 1 de Resolución 2991/1996 y texto de 2418/1995."},
+    {"id":"A75-REL-004","from":"A75-R2766-2018","to":"A75-R1536-2011","type":"deroga","articles":"art. 1","status":"verified","evidence":"Art. 1 de Resolución Conjunta 2766/2018."},
+    {"id":"A75-REL-005","from":"A75-COM-2023-02","to":"A75-R2767-2022","type":"implementa","articles":"arts. 5, 6, 8 y 10","status":"verified","evidence":"Referencia y desarrollo del documento PV-2023-04469903."},
+    {"id":"A75-REL-006","from":"A75-R1284-2024","to":"A75-R1183-2011","type":"complementa","articles":"arts. 1 a 3","status":"verified","evidence":"Remisión expresa en considerandos y articulado de 1284/2024."},
+    {"id":"A75-REL-007","from":"A75-R4933-2024","to":"D01","type":"complementa","articles":"art. 75 inc. 13.3.1, 13.3.2 y 13.3.6","status":"verified","evidence":"Arts. 1 a 6 de Resolución Conjunta 4933/2024."},
+    {"id":"A75-REL-008","from":"A75-R2839-2026","to":"A75-R1183-2011","type":"deroga","articles":"art. 1","status":"verified","evidence":"Art. 1 de Resolución Conjunta 2839/2026 y ficha oficial de 1183/2011."},
+    {"id":"A75-REL-009","from":"A75-R2839-2026","to":"A75-R403-2023","type":"deroga","articles":"art. 1","status":"verified","evidence":"Art. 1 de Resolución Conjunta 2839/2026."},
+    {"id":"A75-REL-010","from":"A75-R2839-2026","to":"A75-R1284-2024","type":"afecta potencialmente","articles":"remisiones a 1183/2011","status":"pending","evidence":"1284/2024 se apoya en 1183/2011, luego derogada; efecto específico no resuelto por la evidencia reunida."}
+  ],
+  "documents": [
+    {"filename":"Acuerdo Paritario - Junio de 2009.pdf","sha256":"e3c38054aeff3b9993695de8f4ac27d262689ee6b9a7d9a7c5e2ddc8cfac4c69","pages":10,"catalog_id":"A75-AP-2009-06","review":"partial","articles":"Cláusulas sobre pruebas de selección y cargos jerárquicos"},
+    {"filename":"DI-2025-22412523-GDEBA-DIGDGCYE.pdf","sha256":"211c6ef9b0b8e36c72e8556b48bf61f320d4b634861808c4742dbda487370afa","pages":2,"catalog_id":"A75-D5-2025","review":"full","articles":"arts. 1 a 3; el acto es DISPC-2025-5"},
+    {"filename":"PV-2023-04469903-GDEBA-DIGDGCYE.pdf","sha256":"87acf5f7a62352317058e7d0548504a776e6ddb509c890bfcacb080e90ccdcf6","pages":2,"catalog_id":"A75-COM-2023-02","review":"full","articles":"Implementación de 2767/2022"},
+    {"filename":"R 12465-99 - Cargos Jerárquicos para Cambio de Funciones.pdf","sha256":"d4c4a559a2a9d10052de5add1ce05e1eaed55df2d26593f37739c4f2391868b4","pages":3,"catalog_id":"A75-R12465-1999","review":"full","articles":"arts. 1 a 4"},
+    {"filename":"R 2421-95 - Item unificado Director y VD.pdf","sha256":"eaafe6533df3042acda1024278b4c8868c962bbce89412e1293fe3932cbf626a","pages":2,"catalog_id":"A75-R2421-1995","review":"full","articles":"art. 1"},
+    {"filename":"R 2991-96 - Art. 75° Ap 14.pdf","sha256":"7674a1dc2d864206fb6182ad87e84be4a6984f6ad6ce3a6e12ad5ba01b35e8e5","pages":1,"catalog_id":"A75-R2991-1996","review":"full","articles":"arts. 1 a 5"},
+    {"filename":"R1573-97-Art.-75-inc.-6.4.3-los-Docentes-con-servicios-provisorios.pdf","sha256":"4aa4daf25b0024c7636e8ae2d546ca942f0cfc226e8840fa662fb4091606f718","pages":2,"catalog_id":"A75-R1573-1997","review":"full","articles":"art. 1"},
+    {"filename":"RES 1184-11.pdf","sha256":"07de45a3572efd46debf7136961498444e182c159b8c2254a0e8900db8a2459e","pages":2,"catalog_id":"A75-R1184-2011","review":"visual_full","articles":"arts. 1 a 3; no es Resolución 1183/2011"},
+    {"filename":"RES 1536-11.pdf","sha256":"fff40c3875cf74f8b09b7b77d87aaf69c39e21e2ea42c30a2fa8eb245ab540a5","pages":2,"catalog_id":"A75-R1536-2011","review":"visual_full","articles":"arts. 1 a 3"},
+    {"filename":"RES-2418.pdf","sha256":"dd45782fd4a2ce6e2b4cf47d70356fa602611b8b23811ddea5f4ab860cd83470","pages":2,"catalog_id":"A75-R2418-1995","review":"full","articles":"arts. 1 a 6"},
+    {"filename":"RESERVA-DE-CARGOS-JERARQUICOS-CONSEJEROS-ESCOLARES.pdf","sha256":"fa5c162e707553c25e9760c834d839b2d52697ab03a678db30d9c6694213263a","pages":2,"catalog_id":"P01","review":"full","articles":"extracto arts. 149 y 150 de Ley 13.688"},
+    {"filename":"RESOC-2024-1284-GDEBA-DGCYE - MEDIO CARGO.pdf","sha256":"aadcd3eb7b713e9134aaec85fdecb8a8936b955dcbc21e0180ec3666bafeb04f","pages":3,"catalog_id":"A75-R1284-2024","review":"full","articles":"arts. 1 a 5"},
+    {"filename":"RSC-2024-4933-GDEBA-DGCYE EXCLUSIONES Y NUEVASEXCEPCIONES NÓMINA JERÁRQUICOS_3.pdf","sha256":"a3c4238723743471a633f00d981423a6ce0a6484a907cfd70e9e0d8b228c44bd","pages":3,"catalog_id":"A75-R4933-2024","review":"full","articles":"arts. 1 a 8"},
+    {"filename":"Resol-1622-15-Reserva-cargos-embarazadas.pdf","sha256":"dd88d8d2ba7c842fac5df1cd1688b50d57bc5ea68d0652cf5faeb3c140fef55d","pages":5,"catalog_id":"A75-R1622-2015","review":"visual_full","articles":"arts. 1 a 8"},
+    {"filename":"Resol-569-12-Continuidad-Jerarquicos-Transit.pdf","sha256":"84353f2f27d724b5e522f492d3958acd3a80f8d1b8958b9c95c95c3325fc008f","pages":4,"catalog_id":"A75-R569-2012","review":"visual_full","articles":"arts. 1 a 5"},
+    {"filename":"Resolucion 4088-04.pdf","sha256":"afb70acca9133905d06cb7dee112dab85fddfcd4e948463c187b4e9ee30e4ae7","pages":2,"catalog_id":"A75-R4088-2004","review":"full","articles":"arts. 1 a 3"},
+    {"filename":"Resolucion 568-12 - Licencia pruebas de selección.pdf","sha256":"771d1053ea4c9e4d665d8a0ccfc11c819e83b14b1a108652bbdef7afa51d491e","pages":3,"catalog_id":"A75-R568-2012","review":"visual_full","articles":"rectificación del art. 1 de 3939/2011"},
+    {"filename":"Resolución 2139-06 - Puntaje Provisionales.pdf","sha256":"ac4a71b8a928120434650503e4c7930a8657b5372a58d6658fe294a5f2a6b51d","pages":2,"catalog_id":"A75-R2139-2006","review":"visual_full","articles":"arts. 1 a 5"},
+    {"filename":"Resolución 2766-2018 - Aplicación Art. 75 Inc. 4.pdf","sha256":"893303a4f6227174e76973c265dac01669b488ed341dfe64e7d78783cf76d967","pages":3,"catalog_id":"A75-R2766-2018","review":"full","articles":"arts. 1 a 8"},
+    {"filename":"Resolución 2767-22.pdf","sha256":"2c937623078bf585aeaadbba866565acc79c68d06808d3c9cc9c91de4383f9ef","pages":5,"catalog_id":"A75-R2767-2022","review":"full","articles":"arts. 1 a 12"},
+    {"filename":"Resolución Destino definitivo titulares interinos.pdf","sha256":"dd65521ebf8e956d97421ae1178eb31df5bff18efe1ae198622deb2b0598ddd3","pages":4,"catalog_id":"A75-R3809-2023","review":"full","articles":"arts. 1 a 4"},
+    {"filename":"Resolución Nº 824-05_0.pdf","sha256":"e211a1b898fe650da9e70ebfe852bb24c6f60c82e314f7bd71fc45604e4e7447","pages":24,"catalog_id":"A75-R824-2005","review":"full","articles":"arts. 1 a 5; anexos I y II"},
+    {"filename":"Resolución conjunta 2423_2024 -D3.pdf","sha256":"a154aa7dd56ff22eedd537b9abbdad334d0f7f9f6bb2b2446a239d26f731728a","pages":4,"catalog_id":"A75-R2423-2024","review":"full","articles":"arts. 1 a 10"},
+    {"filename":"Resolución conjunta 2839_2026.pdf","sha256":"5e4fc9706889203588e349d1c8024335f74bf2794dc0c4357d251a0f7f025715","pages":4,"catalog_id":"A75-R2839-2026","review":"full","articles":"arts. 1 a 10"},
+    {"filename":"acuerdos-paritarios-OCTUBRE 2009-15981.pdf","sha256":"6a1cd01eb6dfa9b8033740802466c8160664f1cbc9d7e05249eedfbaaf50863d","pages":14,"catalog_id":"A75-AP-2009-10","review":"partial","articles":"acta y anexos; capítulo XIV citado"}
+  ],
+  "missing_sources": [
+    {"label":"Resolución 3939/2011","reason":"rectificada por 568/2012; texto no incluido"},
+    {"label":"Resolución 2781/1995","reason":"derogada por 1622/2015; texto no incluido"},
+    {"label":"Disposición 65/2011","reason":"derogada por 2767/2022; texto no incluido"},
+    {"label":"Resolución Conjunta 403/2023","reason":"derogada por 2839/2026; texto no incluido"},
+    {"label":"Resolución 1183/2011","reason":"ficha oficial localizada, pero texto no incluido en el paquete"},
+    {"label":"Anexos o actos posteriores no relevados","reason":"la colección aportada no demuestra exhaustividad ni vigencia consolidada"}
+  ],
+  "training": {
+    "disclaimer": "Recorrido autoformativo de revisión. No acredita capacitación, no otorga puntaje y no implica aprobación institucional o jurídica.",
+    "stages": [
+      {"id":"etapa-1","title":"1. Separar los dos regímenes","goal":"Distinguir ascenso titular de asignación transitoria.","sources":["E01","D01","A75-R1184-2011","A75-R824-2005"]},
+      {"id":"etapa-2","title":"2. Leer el procedimiento","goal":"Reconocer prueba, nómina, puntaje y orden de cobertura.","sources":["A75-R824-2005","A75-R2139-2006","A75-R2767-2022","A75-COM-2023-02"]},
+      {"id":"etapa-3","title":"3. Resolver relaciones temporales","goal":"Identificar derogaciones expresas y relaciones pendientes.","sources":["A75-R1536-2011","A75-R2766-2018","A75-R1183-2011","A75-R2839-2026","A75-R1284-2024"]},
+      {"id":"etapa-4","title":"4. Aplicar garantías sin automatismos","goal":"Ubicar licencias y protecciones sin inferir una decisión individual.","sources":["A75-R568-2012","A75-R1622-2015","A75-R4933-2024","A75-R12465-1999"]}
+    ],
+    "cases": [
+      {"id":"caso-ficticio-1","title":"Caso ficticio A — concurso o cobertura","scenario":"Una docente consulta si una nómina para una función jerárquica transitoria equivale a titularizar un cargo.","guidance":"Separar primero concurso de ascenso titular y asignación transitoria; citar la fuente aplicable y no prometer estabilidad.","sources":["E01","D01","A75-R824-2005"]},
+      {"id":"caso-ficticio-2","title":"Caso ficticio B — norma derogada","scenario":"Un instructivo invoca la Resolución 1536/2011 para exigir un relevo de carga.","guidance":"Distinguir dos efectos de la Resolución 2766/2018: su artículo 1 deroga expresamente la Resolución 1536/2011, pero su artículo 2 establece que, si el docente no alcanza la carga a relevar, debe relevar la que desempeña e incrementar el relevo ante un acrecentamiento hasta completar la carga correspondiente. La derogación del acto anterior no elimina esa obligación recogida por la norma posterior. Antes de aplicarla a un caso, mantener los límites documentados sobre vigencia consolidada, fecha y situación individual.","sources":["A75-R1536-2011","A75-R2766-2018"]},
+      {"id":"caso-ficticio-3","title":"Caso ficticio C — medio cargo","scenario":"Se pretende aplicar automáticamente 1284/2024 después de la derogación de 1183/2011.","guidance":"Marcar la relación como pendiente: la evidencia reunida no resuelve por sí sola el efecto sobre 1284/2024.","sources":["A75-R1284-2024","A75-R1183-2011","A75-R2839-2026"]}
+    ],
+    "questions": [
+      {"id":"q1","prompt":"¿Una función jerárquica transitoria equivale a un ascenso titular?","answer":"No. Deben analizarse como regímenes distintos y con sus fuentes específicas.","sources":["E01","D01","A75-R824-2005"]},
+      {"id":"q2","prompt":"¿Qué norma del paquete deroga expresamente la Resolución 1536/2011?","answer":"La Resolución Conjunta 2766/2018, en su artículo 1.","sources":["A75-R2766-2018","A75-R1536-2011"]},
+      {"id":"q3","prompt":"¿El archivo llamado DI-2025-22412523 contiene una disposición con ese número?","answer":"No. Su contenido identifica el acto como DISPC-2025-5-GDEBA-DIGDGCYE.","sources":["A75-D5-2025"]},
+      {"id":"q4","prompt":"¿Puede afirmarse sólo con esta colección que 1284/2024 quedó sin efecto?","answer":"No. La derogación de 1183/2011 exige una revisión jurídica y documental específica del efecto sobre 1284/2024.","sources":["A75-R1284-2024","A75-R2839-2026"]}
+    ]
+  },
+  "limits": [
+    "No es un texto consolidado ni una consulta histórica.",
+    "La presencia de una norma no acredita vigencia actual ni aplicabilidad a un caso.",
+    "No contiene datos personales, expedientes individuales ni decisiones automatizadas.",
+    "Los originales PDF y el ZIP no forman parte de la distribución web."
+  ]
+}
