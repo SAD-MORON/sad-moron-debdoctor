@@ -58,6 +58,9 @@ Luego abrir `http://127.0.0.1:8080/`.
 
 - Búsqueda por tema, número de norma y palabras.
 - Fichas con fuentes, relaciones y pendientes documentales.
+- Efectos normativos documentados (candidato v2): 21 relaciones con expresión
+  literal, interpretación técnica, alcance y evidencia separados; las 5 no
+  acreditadas se muestran como pendientes y ninguna fecha efectiva se declara.
 - Árbol de navegación con ramas expandibles, zoom y desplazamiento.
 - Relaciones jurídicas visibles al seleccionar una norma.
 - Lista accesible equivalente al mapa gráfico.
