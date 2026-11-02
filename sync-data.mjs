@@ -15,4 +15,9 @@ const article75Text=await fs.readFile(article75Source,'utf8');const article75=JS
 if(article75.candidate!==true||article75.source_package?.files!==25||!Array.isArray(article75.documents)||!Array.isArray(article75.relations))throw Error('Módulo Artículo 75 inválido');
 await fs.mkdir(new URL('./web/ascensos/',import.meta.url),{recursive:true});
 await fs.writeFile(article75Target,article75Text);
-console.log('Proyecciones web actualizadas desde el catálogo canónico, el grafo candidato y el módulo Artículo 75.');
+const effectsSource=new URL('./data/candidatos/efectos-normativos-debdoctor-006-v2.json',import.meta.url);
+const effectsTarget=new URL('./web/efectos-normativos-v2.json',import.meta.url);
+const effectsText=await fs.readFile(effectsSource,'utf8');const effects=JSON.parse(effectsText);
+if(effects.candidate!==true||effects.consolidated_validity_declared!==false||!Array.isArray(effects.relations))throw Error('Candidato de efectos normativos inválido');
+await fs.writeFile(effectsTarget,effectsText);
+console.log('Proyecciones web actualizadas desde el catálogo canónico, el grafo candidato, el módulo Artículo 75 y los efectos normativos v2.');
