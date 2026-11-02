@@ -1,0 +1,704 @@
+{
+  "schema_version": "2.0.0",
+  "candidate": true,
+  "candidate_status": "CANDIDATE_NOT_APPROVED",
+  "task_id": "DEBDOCTOR-009B",
+  "derived_from": {
+    "candidate": "DEBDOCTOR-007 candidate v1",
+    "availability": "LOCAL_UNPUBLISHED",
+    "sha256": "fb485422b12a1789f0ee9589199d157a131207927b5fddea333d81acb59810dd",
+    "semantic_verdict": "DEBDOCTOR-008"
+  },
+  "canonical_catalog_modified": false,
+  "published_web_modified": false,
+  "consolidated_validity_declared": false,
+  "semantic_contract": {
+    "literal_action": "Verbo o acción textual mínima acreditada; null cuando no está verificada.",
+    "interpreted_effect": "Clasificación técnica separada de la expresión literal.",
+    "interpretation_statuses": [
+      "VERIFIED",
+      "INFERRED",
+      "UNKNOWN"
+    ],
+    "scope_statuses": [
+      "VERIFIED",
+      "INFERRED",
+      "UNKNOWN"
+    ],
+    "effective_date_rule": "Una fecha del acto o de publicación no se convierte en fecha efectiva sin acreditación."
+  },
+  "effect_types": [
+    "DEROGACION_TOTAL",
+    "DEROGACION_PARCIAL",
+    "MODIFICACION",
+    "RECTIFICACION",
+    "DEJA_SIN_EFECTO",
+    "REGLAMENTACION",
+    "REORGANIZACION"
+  ],
+  "verification_states": [
+    "VERIFIED",
+    "CONFLICT",
+    "UNKNOWN"
+  ],
+  "provenance": {
+    "source_tasks": [
+      "DEBDOCTOR-005B",
+      "DEBDOCTOR-006",
+      "DEBDOCTOR-007",
+      "DEBDOCTOR-008"
+    ],
+    "catalog_dependency": "data/catalogo-inicial.json",
+    "note": "Candidato v2 aislado; no integra catálogo ni web y no declara vigencia consolidada."
+  },
+  "source_gaps": [
+    {
+      "source_id": "SRC-RESOC-6249-2026",
+      "issue": "La evidencia reportada conserva hash, pero no una ruta local reproducible.",
+      "status": "UNKNOWN"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-BASE-NORMATIVA",
+      "kind": "WORKBOOK",
+      "label": "BASE NORMATIVA.xlsx",
+      "sha256": "a51bef6e7d47dbece04f6d416bbdb693ffaea63597b507fd3099177c9662c154",
+      "access": "LOCAL_READ_ONLY"
+    },
+    {
+      "id": "SRC-RESOC-6249-2026",
+      "kind": "PDF_LOCAL_COPY",
+      "label": "RESOC-2026-6249-GDEBA-DGCYE con Anexo",
+      "sha256": "e82aef1aea535d86e5ecbd18218f721472f2265c321d01b50d482b586dae86d7",
+      "access": "LOCAL_READ_ONLY"
+    },
+    {
+      "id": "SRC-RESOC-2766-2018",
+      "kind": "SIGNED_PDF_COPY",
+      "url": "https://carteleravirtualsad.wordpress.com/wp-content/uploads/2018/09/resolucic3b3n-nc2b0-2766-gdeba-deroga-resolucic3b3n-1536.pdf"
+    },
+    {
+      "id": "SRC-RES-568-2012",
+      "kind": "OFFICIAL_RECORD",
+      "url": "https://normas.gba.gob.ar/ar-b/resolucion/2012/568/195354"
+    },
+    {
+      "id": "SRC-LEY-10614",
+      "kind": "OFFICIAL_RECORD",
+      "url": "https://normas.gba.gob.ar/ar-b/ley/1987/10614/6206"
+    },
+    {
+      "id": "SRC-LEY-10579-ACTUALIZADA",
+      "kind": "OFFICIAL_UPDATED_TEXT",
+      "url": "https://normas.gba.gob.ar/documentos/xkdoDUAB.html"
+    },
+    {
+      "id": "SRC-RESOC-156-2024",
+      "kind": "OFFICIAL_PDF",
+      "url": "https://normas.gba.gob.ar/documentos/xb37wXhp.pdf"
+    },
+    {
+      "id": "SRC-DEC-121-2020",
+      "kind": "OFFICIAL_RECORD",
+      "url": "https://normas.gba.gob.ar/ar-b/decreto/2020/121/211165"
+    },
+    {
+      "id": "SRC-DOC-10-2009",
+      "kind": "DOCUMENT_COPY",
+      "url": "https://www.sadlobos.com/wp-content/uploads/2022/09/64-Documento-N%C2%B0-10-09-BUROCRACIA.-Direccion-de-Gestion-de-Asuntos-Docentes..pdf"
+    }
+  ],
+  "norms": [
+    {
+      "id": "A75-R2766-2018",
+      "catalog_id": "A75-R2766-2018",
+      "label": "Resolución Conjunta 2766/2018"
+    },
+    {
+      "id": "A75-R1536-2011",
+      "catalog_id": "A75-R1536-2011",
+      "label": "Resolución 1536/2011"
+    },
+    {
+      "id": "RESOC-2026-6249",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 6249/2026"
+    },
+    {
+      "id": "RES-2014-413",
+      "catalog_id": null,
+      "label": "Resolución 413/2014"
+    },
+    {
+      "id": "RESFC-2018-331",
+      "catalog_id": null,
+      "label": "Resolución Firma Conjunta 331/2018"
+    },
+    {
+      "id": "CI-2018-02290756",
+      "catalog_id": null,
+      "label": "CI-2018-02290756-GDEBA-DTCDGCYE"
+    },
+    {
+      "id": "A75-R568-2012",
+      "catalog_id": "A75-R568-2012",
+      "label": "Resolución 568/2012"
+    },
+    {
+      "id": "RES-2011-3939",
+      "catalog_id": null,
+      "label": "Resolución 3939/2011"
+    },
+    {
+      "id": "LEY-10614-1987",
+      "catalog_id": null,
+      "label": "Ley 10.614"
+    },
+    {
+      "id": "E01",
+      "catalog_id": "E01",
+      "label": "Ley 10.579 — Estatuto del Docente"
+    },
+    {
+      "id": "RESOC-2024-156",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 156/2024"
+    },
+    {
+      "id": "RESOC-2020-33",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 33/2020"
+    },
+    {
+      "id": "RESOC-2020-748",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 748/2020"
+    },
+    {
+      "id": "RESOC-2020-1162",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 1162/2020"
+    },
+    {
+      "id": "RESOC-2020-1399",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 1399/2020"
+    },
+    {
+      "id": "RESOC-2021-562",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 562/2021"
+    },
+    {
+      "id": "RESOC-2021-868",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 868/2021"
+    },
+    {
+      "id": "RESOC-2021-3015",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 3015/2021"
+    },
+    {
+      "id": "RESOC-2022-1549",
+      "catalog_id": null,
+      "label": "Resolución Conjunta 1549/2022"
+    },
+    {
+      "id": "DEC-2020-121",
+      "catalog_id": null,
+      "label": "Decreto 121/2020"
+    },
+    {
+      "id": "LEY-14893-2017",
+      "catalog_id": null,
+      "label": "Ley 14.893"
+    },
+    {
+      "id": "DEC-2019-1786",
+      "catalog_id": null,
+      "label": "Decreto 1786/2019"
+    },
+    {
+      "id": "P09",
+      "catalog_id": "P09",
+      "label": "Ley 10.430"
+    },
+    {
+      "id": "DOC-RESOC-2024-05214751",
+      "catalog_id": null,
+      "label": "Referencia RESOC-2024-05214751-GDEBA-DGCYE"
+    },
+    {
+      "id": "RESFC-2018-326",
+      "catalog_id": null,
+      "label": "Resolución Firma Conjunta 326/2018"
+    },
+    {
+      "id": "RES-2017-7",
+      "catalog_id": null,
+      "label": "Resolución 7/2017"
+    },
+    {
+      "id": "A75-R2421-1995",
+      "catalog_id": "A75-R2421-1995",
+      "label": "Resolución 2421/1995"
+    },
+    {
+      "id": "D01",
+      "catalog_id": "D01",
+      "label": "Decreto 2485/1992"
+    }
+  ],
+  "relations": [
+    {
+      "id": "REL-001",
+      "origin_id": "A75-R2766-2018",
+      "affected_id": "A75-R1536-2011",
+      "literal_action": "DEROGAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "DEROGACION_TOTAL",
+      "interpretation_status": "VERIFIED",
+      "scope": "TOTAL_NORMA",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Resolución completa",
+      "source_ids": [
+        "SRC-RESOC-2766-2018"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1: derogar la Resolución 1536/11.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-002",
+      "origin_id": "RESOC-2026-6249",
+      "affected_id": "RES-2014-413",
+      "literal_action": "DEJAR_SIN_EFECTO",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "DEJA_SIN_EFECTO",
+      "interpretation_status": "VERIFIED",
+      "scope": "TOTAL_NORMA",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Resolución completa",
+      "source_ids": [
+        "SRC-RESOC-6249-2026"
+      ],
+      "source_disposition": "Artículo 1, página 2",
+      "evidence_reference": "Página 2, artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-003",
+      "origin_id": "RESOC-2026-6249",
+      "affected_id": "RESFC-2018-331",
+      "literal_action": "DEJAR_SIN_EFECTO",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "DEJA_SIN_EFECTO",
+      "interpretation_status": "VERIFIED",
+      "scope": "TOTAL_NORMA",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Resolución completa",
+      "source_ids": [
+        "SRC-RESOC-6249-2026"
+      ],
+      "source_disposition": "Artículo 1, página 2",
+      "evidence_reference": "Página 2, artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-004",
+      "origin_id": "RESOC-2026-6249",
+      "affected_id": "CI-2018-02290756",
+      "literal_action": "DEJAR_SIN_EFECTO",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "DEJA_SIN_EFECTO",
+      "interpretation_status": "VERIFIED",
+      "scope": "TOTAL_INSTRUMENTO",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Instrumento completo",
+      "source_ids": [
+        "SRC-RESOC-6249-2026"
+      ],
+      "source_disposition": "Artículo 1, página 2",
+      "evidence_reference": "Página 2, artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-005",
+      "origin_id": "A75-R568-2012",
+      "affected_id": "RES-2011-3939",
+      "literal_action": "RECTIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "RECTIFICACION",
+      "interpretation_status": "VERIFIED",
+      "scope": "PARCIAL_ARTICULO",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Artículo 1",
+      "source_ids": [
+        "SRC-RES-568-2012"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Rectifica en el artículo 1 las referencias 688/92 y artículo 114 inciso 11.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-006",
+      "origin_id": "LEY-10614-1987",
+      "affected_id": "E01",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "MODIFICACION",
+      "interpretation_status": "VERIFIED",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": null,
+      "source_ids": [
+        "SRC-LEY-10614",
+        "SRC-LEY-10579-ACTUALIZADA"
+      ],
+      "source_disposition": "Ficha oficial: resumen",
+      "evidence_reference": "La ficha oficial declara que modifica la Ley 10.579; el listado exhaustivo de artículos permanece pendiente.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED",
+      "pending": "No completar artículos hasta cotejar íntegramente el original."
+    },
+    {
+      "id": "REL-007",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2020-33",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-008",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2020-748",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-009",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2020-1162",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-010",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2020-1399",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-011",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2021-562",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-012",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2021-868",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-013",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2021-3015",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-014",
+      "origin_id": "RESOC-2024-156",
+      "affected_id": "RESOC-2022-1549",
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "INFERRED",
+      "scope": "PARCIAL_ESTRUCTURAL",
+      "scope_status": "INFERRED",
+      "affected_provision": "Estructura Orgánica Funcional",
+      "source_ids": [
+        "SRC-RESOC-156-2024"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-015",
+      "origin_id": "DEC-2020-121",
+      "affected_id": "LEY-14893-2017",
+      "literal_action": "APROBAR_REGLAMENTACION",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "REGLAMENTACION",
+      "interpretation_status": "VERIFIED",
+      "scope": "LEY_MEDIANTE_ANEXO",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Ley completa mediante Anexo Único",
+      "source_ids": [
+        "SRC-DEC-121-2020"
+      ],
+      "source_disposition": "Artículo 1",
+      "evidence_reference": "Artículo 1.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-016",
+      "origin_id": "DEC-2020-121",
+      "affected_id": "DEC-2019-1786",
+      "literal_action": "DEROGAR",
+      "literal_action_status": "VERIFIED",
+      "interpreted_effect": "DEROGACION_TOTAL",
+      "interpretation_status": "VERIFIED",
+      "scope": "TOTAL_NORMA",
+      "scope_status": "VERIFIED",
+      "affected_provision": "Decreto completo",
+      "source_ids": [
+        "SRC-DEC-121-2020"
+      ],
+      "source_disposition": "Artículo 3",
+      "evidence_reference": "Artículo 3.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "VERIFIED"
+    },
+    {
+      "id": "REL-U01",
+      "origin_id": null,
+      "affected_id": "P09",
+      "literal_action": null,
+      "literal_action_status": "UNKNOWN",
+      "interpreted_effect": "MODIFICACION",
+      "interpretation_status": "UNKNOWN",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": null,
+      "source_ids": [
+        "SRC-BASE-NORMATIVA"
+      ],
+      "source_disposition": "LEYES!A30:B30",
+      "evidence_reference": "LEYES!A30:B30: Ley 10.430 y sus modificatorias; normas modificatorias no identificadas.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "UNKNOWN"
+    },
+    {
+      "id": "REL-U02",
+      "origin_id": "DOC-RESOC-2024-05214751",
+      "affected_id": null,
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "UNVERIFIED",
+      "interpreted_effect": "REORGANIZACION",
+      "interpretation_status": "UNKNOWN",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": null,
+      "source_ids": [
+        "SRC-BASE-NORMATIVA"
+      ],
+      "source_disposition": "LEYES!A82:B82",
+      "evidence_reference": "LEYES!A82:B82: modificación de estructura; norma afectada no acreditada.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "UNKNOWN"
+    },
+    {
+      "id": "REL-U03",
+      "origin_id": "RESFC-2018-326",
+      "affected_id": null,
+      "literal_action": "MODIFICAR",
+      "literal_action_status": "UNVERIFIED",
+      "interpreted_effect": "MODIFICACION",
+      "interpretation_status": "UNKNOWN",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": "Artículo 108 in fine, referencia incompleta",
+      "source_ids": [
+        "SRC-BASE-NORMATIVA"
+      ],
+      "source_disposition": "LEYES!A94:B94",
+      "evidence_reference": "LEYES!A94:B94: resolución modificatoria; norma afectada no identificada textualmente.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "UNKNOWN"
+    },
+    {
+      "id": "REL-U04",
+      "origin_id": "RES-2017-7",
+      "affected_id": null,
+      "literal_action": null,
+      "literal_action_status": "UNKNOWN",
+      "interpreted_effect": "REGLAMENTACION",
+      "interpretation_status": "UNKNOWN",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": null,
+      "source_ids": [
+        "SRC-BASE-NORMATIVA"
+      ],
+      "source_disposition": "LEYES!A38:B38",
+      "evidence_reference": "LEYES!A38:B38: el rótulo no identifica una norma afectada.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "UNKNOWN"
+    },
+    {
+      "id": "REL-U05",
+      "origin_id": "A75-R2421-1995",
+      "affected_id": "D01",
+      "literal_action": null,
+      "literal_action_status": "UNKNOWN",
+      "interpreted_effect": "REGLAMENTACION",
+      "interpretation_status": "UNKNOWN",
+      "scope": "UNKNOWN",
+      "scope_status": "UNKNOWN",
+      "affected_provision": "Artículo 75, inciso 8, párrafo tercero",
+      "source_ids": [
+        "SRC-BASE-NORMATIVA"
+      ],
+      "source_disposition": "LEYES!A45:B45",
+      "evidence_reference": "LEYES!A45:B45; original íntegro no cotejado.",
+      "effective_date": null,
+      "effective_date_status": "UNKNOWN",
+      "verification": "UNKNOWN"
+    }
+  ],
+  "document_conflicts": [
+    {
+      "id": "DOC-CONFLICT-001",
+      "workbook_cell": "LEYES!B97",
+      "expected_document": "RESFC-2018-331-GDEBA-DGCYE",
+      "linked_document": "RESOC-2026-6249-GDEBA-DGCYE",
+      "source_ids": [
+        "SRC-BASE-NORMATIVA",
+        "SRC-RESOC-6249-2026"
+      ],
+      "exact_reference": "El PDF enlazado se identifica en su página 1 como RESOC-2026-6249-GDEBA-DGCYE.",
+      "status": "CONFLICT"
+    },
+    {
+      "id": "DOC-CONFLICT-002",
+      "workbook_cell": "DOCUMENTOS!B17",
+      "expected_document": "Documento 10/09 — Burocracia",
+      "linked_document": "Documento 9/09 — La comunicación en la organización",
+      "source_ids": [
+        "SRC-BASE-NORMATIVA",
+        "SRC-DOC-10-2009"
+      ],
+      "exact_reference": "B17 reutiliza el mismo destino que B15; el Documento 10/09 recuperado tiene título y contenido distintos.",
+      "status": "CONFLICT"
+    }
+  ]
+}
